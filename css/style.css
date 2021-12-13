@@ -25,3 +25,31 @@ nav .brand-logo {
   width: 100%;
   max-width: 700px;
 }
+.custom-title {
+  position: relative;
+}
+.custom-title h2{
+  font-size: 30px;
+  color: #777;
+  background: #fff;
+  padding-right: 10px;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 55px;
+  z-index: 1;
+  background: #777;
+  left: 0;
+  cursor: pointer;
+}
+
+.offset-equipe{position: relative;top:89px;}
+
+@media screen and (max-width:768px) {
+  .offset-equipe{top:0;}
+}
